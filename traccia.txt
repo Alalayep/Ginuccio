@@ -1,0 +1,27 @@
+Traccia 1: Sistema di Prenotazione Appuntamenti
+ 
+Obiettivo:
+Sviluppare un programma Python per la gestione di un sistema di prenotazione appuntamenti per un salone di bellezza. Il sistema deve utilizzare i principi OOP e gestire i dati attraverso file JSON, oltre a implementare i costrutti condizionali e iterativi.
+ 
+Requisiti Specifici:
+ 
+Classi OOP:
+Cliente: rappresenta un cliente con attributi come nome, cognome, email e storico_appuntamenti.
+Appuntamento: gestisce i dettagli di un appuntamento, con data, ora, tipo_di_servizio, e cliente.
+ 
+Salone: tiene traccia di tutti gli appuntamenti e gestisce l'agenda.
+ 
+Gestione del File JSON:
+Storicizzare tutti i dati del sistema all’interno di un File JSON
+Leggere un file JSON all'avvio per caricare l'agenda.
+Salvare gli appuntamenti aggiornati in un file JSON alla chiusura.
+ 
+Funzionalità del Programma:
+Fornire un'interfaccia testuale per aggiungere, cancellare o modificare appuntamenti.
+Ricerca di appuntamenti per cliente o data.
+ 
+Versionamento con GIT:
+Seguire un workflow di GIT con commit frequenti e branch dedicati per le nuove funzionalità.
+ 
+Il programma deve essere ben commentato e strutturato secondo i principi di pulizia e chiarezza del codice. Il versionamento dovrebbe riflettere uno sviluppo logico e incrementale del progetto.
+ 
